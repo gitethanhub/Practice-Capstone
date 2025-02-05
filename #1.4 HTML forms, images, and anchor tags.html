@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- FORM STUFF -->
+
+
+<h2> EXAMPLE FORM: </h2> <!-- sends the form stuff to the URL  -->
+<form method="get" action="EthanQuiz1.html"> 
+    <label for="useremail"> YOUR EMAIL:</label>
+    <input type="email" id= "useremail" name="usemail" value="bob.dylan@gmail.com">
+
+    <label for="userpass"> YOUR PASSWORD:</label>
+    <input type="password" id="userpass" name="uspass" placeholder="password">
+ 
+    <input type="submit"  value="SUBMIT">
+    <br>
+    
+</form>
+
+
+<h3> ANOTHER EXAMPLE FORM: </h3> <!-- sends the form stuff to another html in file in your code -->
+
+<!-- method="get" or method="post" HERE is the change -->
+
+
+    <!-- DIFFERENCE BEWTEEN ID AND NAME: 
+    NAME: When you submit the form, the name and value gets sent to the code.
+    ID: The id is the name that is used inside the html file to refer to the input.
+   	Example: The email label is *for* the *input* with a id of "useremail"
+   -->
+   
+   <!-- DIFFERENCE BEWTEEN VALUE AND PLACEHOLDER: 
+   Value: A value will pre fill something in a feild 
+   Placeholder: just adds grey out text in the background -->
+   
+    <!-- DIFFERENCE BEWTEEN GET AND POST: 
+   method Get: SENDS form stuff to another html files URL
+   method Post: SENDS form stuff to another html files, without showing the info in the URL. (better for passwords) -->
+
+
+</body>
+</html>
